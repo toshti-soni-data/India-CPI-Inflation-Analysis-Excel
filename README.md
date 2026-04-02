@@ -1,48 +1,73 @@
 # India-CPI-Inflation-Case-Study-Excel-Project
 
-PROJECT OVERVIEW
-This project analyzes India’s Consumer Price Index (CPI) inflation using Microsoft Excel. The analysis focuses on category-wise contribution to inflation, food inflation volatility, Covid-19 impact, and the relationship between global crude oil prices and domestic inflation trends. All calculations, charts, and insights are created using Excel formulas, pivot tables, and charts only.
+## 📌 Project Overview
+This project analyzes India’s **Consumer Price Index (CPI) inflation** using Microsoft Excel. The analysis focuses on category-wise contribution to inflation, food inflation volatility, the impact of COVID-19, and the correlation between global crude oil prices and domestic inflation trends.
 
-ROLE AND TOOLS
+> **Note:** All calculations, data cleaning, and visualizations were performed exclusively using **Microsoft Excel** (Pivot Tables, Advanced Formulas, and Power Query).
 
-Role: Data Analyst (Project Owner)
-Tools: Microsoft Excel
-BUSINESS OBJECTIVE
+---
 
-Understand key drivers of CPI inflation in India
-Identify major contributing categories to overall inflation
-Compare inflation behavior before and after Covid-19
-Analyze the impact of global crude oil prices on domestic inflation
-DATASET
+## 🛠️ Role and Tools
+* **Role:** Data Analyst (Project Owner)
+* **Tools:** Microsoft Excel (Power Query, Pivot Tables, Statistical Functions)
 
-CPI INFLATION DATA
+---
 
-Monthly CPI index values across categories such as Food, Essentials, Healthcare, Clothing, Premium, and Miscellaneous
-Includes general CPI index with rural and urban breakdowns
-Source: Official Government of India publications
-CRUDE OIL PRICES DATA
+## 🎯 Business Objectives
+* Identify key drivers of CPI inflation in India.
+* Analyze the contribution of specific categories (Food, Healthcare, etc.) to the overall index.
+* Compare inflation behavior in **Pre-COVID vs. Post-COVID** eras.
+* Measure the impact of **Global Crude Oil Prices** on domestic inflation.
 
-Month-on-month imported crude oil price data from 2021 to 2023
-Maintained separately in Excel for correlation analysis
-STEPS PERFORMED IN EXCEL
+---
 
-DATA PREPARATION
+## 📊 Dataset Information
+### 1. CPI Inflation Data
+* **Content:** Monthly CPI index values (Food, Essentials, Healthcare, Clothing, etc.).
+* **Breakdown:** Includes General, Rural, and Urban indices.
+* **Source:** Official Government of India publications.
 
-Imported CPI index data into Excel and organized it into structured tables
-Grouped detailed CPI items into broader analytical buckets for clarity
-Created helper columns for:
-Month-on-month change
-Year-on-year change
-Pre-Covid and post-Covid classification
-CALCULATIONS AND ANALYSIS
+### 2. Crude Oil Prices Data
+* **Content:** Month-on-month imported crude oil price data (2021–2023).
+* **Usage:** Correlation analysis against domestic inflation trends.
 
-Calculated category-wise contribution to total inflation for the latest period
-Computed year-on-year inflation trends from 2017 onwards
-Analyzed month-on-month food inflation from June 2022 to May 2023
-Compared inflation trends before and after Covid-19 for key categories
-Performed correlation analysis between crude oil price changes and inflation in Food and Essentials
-CHARTS AND DASHBOARD
+---
 
+## 🏗️ Steps Performed in Excel
+
+### 1. Data Preparation
+* Imported raw data and organized it into **Structured Excel Tables**.
+* Standardized categories into analytical "buckets" (e.g., Essentials, Premium, Misc).
+* Created **Helper Columns** using formulas for:
+    * Month-on-Month (MoM) % Change
+    * Year-on-Year (YoY) % Change
+    * COVID-19 Period Classification (Pre vs. Post)
+
+### 2. Calculations & Analysis
+* **Contribution Analysis:** Calculated how much each category (like Food) adds to the total inflation percentage.
+* **Trend Analysis:** Tracked YoY inflation from 2017 to 2023.
+* **Correlation:** Performed statistical correlation between crude oil price shifts and "Food & Essentials" inflation.
+
+### 3. Dashboard & Visualizations
+* **Line Charts:** To show the long-term YoY CPI trend.
+* **Grouped Column Charts:** Comparing Pre-COVID vs. Post-COVID inflation.
+* **Waterfall/Pie Charts:** Representing the weightage of major categories.
+
+---
+
+## 💡 Key Insights
+* **Major Driver:** Food inflation contributes nearly **50%** of total CPI inflation.
+* **Essentials:** Contribute approximately **19%** to overall inflation.
+* **COVID Impact:** Inflation peaked around **2019 at 7.7%**, largely driven by supply chain disruptions in food.
+* **Spices Spike:** Recorded a sharp **16.5% inflation increase** due to export demand and supply constraints.
+* **Crude Oil Link:** Data shows a **strong positive correlation** between global oil prices and domestic food/essential costs (2021–2023).
+
+---
+
+## 📂 How to Use This Repository
+1.  Download the `India_CPI_Analysis.xlsx` file.
+2.  Navigate to the **Dashboard** sheet for a high-level visual summary.
+3.  Check the **Calculations** sheet to view the underlying formulas and Pivot Tables.
 Column chart comparing inflation before and after Covid-19 for Food, Healthcare, and Essentials
 Line chart showing year-on-year CPI inflation trend from 2017 onwards
 Column chart displaying month-on-month food inflation changes (Jun 2022 – May 2023)

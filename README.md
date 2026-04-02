@@ -55,31 +55,21 @@ This project analyzes India’s **Consumer Price Index (CPI) inflation** using M
 
 ---
 
-## 💡 Key Insights
-* **Major Driver:** Food inflation contributes nearly **50%** of total CPI inflation.
-* **Essentials:** Contribute approximately **19%** to overall inflation.
-* **COVID Impact:** Inflation peaked around **2019 at 7.7%**, largely driven by supply chain disruptions in food.
-* **Spices Spike:** Recorded a sharp **16.5% inflation increase** due to export demand and supply constraints.
-* **Crude Oil Link:** Data shows a **strong positive correlation** between global oil prices and domestic food/essential costs (2021–2023).
+## 💡 KEY INSIGHTS
 
----
+* **Food inflation** contributes nearly half of total CPI inflation (approximately 49–50 percent)
+* **Essentials** contribute around 19 percent to overall inflation
+* **Highest month-on-month** food inflation increase occurred in June 2022
+* **Lowest month-on-month** food inflation was observed in February 2023
+* **Spices** recorded a sharp inflation spike of around 16.5 percent due to supply constraints and export demand
+* **Overall inflation peaked** around 2019 at approximately 7.7 percent, driven largely by food categories
+* **Global crude oil prices** show strong positive correlation with inflation in Food and Essentials (2021–2023)
 
-## 📂 How to Use This Repository
-1.  Download the `India_CPI_Analysis.xlsx` file.
-2.  Navigate to the **Dashboard** sheet for a high-level visual summary.
-3.  Check the **Calculations** sheet to view the underlying formulas and Pivot Tables.
-Column chart comparing inflation before and after Covid-19 for Food, Healthcare, and Essentials
-Line chart showing year-on-year CPI inflation trend from 2017 onwards
-Column chart displaying month-on-month food inflation changes (Jun 2022 – May 2023)
-Pie chart representing contribution of major CPI categories to total inflation
-KEY INSIGHTS
+## HOW TO USE THE EXCEL FILE
 
-Food inflation contributes nearly half of total CPI inflation (approximately 49–50 percent)
-Essentials contribute around 19 percent to overall inflation
-Highest month-on-month food inflation increase occurred in June 2022
-Lowest month-on-month food inflation was observed in February 2023
-Spices recorded a sharp inflation spike of around 16.5 percent due to supply constraints and export demand
-Overall inflation peaked around 2019 at approximately 7.7 percent, driven largely by food categories
+* Open the Excel workbook and navigate to the **dashboard sheet**
+* Review **charts and headline insights** in one place
+* Use **underlying data sheets** to adjust time periods, categories, or formulas for deeper analysisargely by food categories
 Global crude oil prices show strong positive correlation with inflation in Food and Essentials (2021–2023)
 HOW TO USE THE EXCEL FILE
 
